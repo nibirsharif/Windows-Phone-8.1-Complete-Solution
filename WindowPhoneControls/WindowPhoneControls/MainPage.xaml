@@ -1,0 +1,200 @@
+﻿<Page
+    x:Class="WindowPhoneControls.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowPhoneControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="68*"/>
+            <RowDefinition Height="93*"/>
+            <RowDefinition Height="145*"/>
+            <RowDefinition Height="124*"/>
+            <RowDefinition Height="60*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="40*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--Hyperlink Button-->
+        <HyperlinkButton x:Name="HyperlinkButton_1" 
+                         Content="HyperlinkButton" 
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Top"
+                         Margin="10,10,0,0"    
+                         Click="HyperlinkButton_1_Click"/>
+
+        <TextBlock x:Name="HB_TextBlock"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="10,10,0,0"
+                   TextWrapping="Wrap"                  
+                   Height="40"
+                   Width="140"
+                   FontSize="24" Grid.Column="1"/>
+
+        <!--Radio Button-->
+        <RadioButton x:Name="RadioButton_1"
+                     Content="RadioButton"
+                     HorizontalAlignment="Left"
+                     Margin="10,10,0,0"
+                     Grid.Row="1"
+                     VerticalAlignment="Top"
+                     Checked="RadioButton_1_Checked"/>
+
+        <TextBlock x:Name="RB_TextBlock"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="10,10,0,0"
+                   TextWrapping="Wrap"                  
+                   Height="40"
+                   Width="140"
+                   FontSize="24"
+                   Grid.Column="1"
+                   Grid.Row="1"/>
+
+        <!--Text Block-->
+        <TextBlock Text="Hello world"
+                   HorizontalAlignment="Left"
+                   Margin="10,10,0,0"
+                   Grid.Row="2"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"
+                   Height="40"
+                   Width="380"
+                   FontSize="24" Grid.ColumnSpan="2"/>
+
+        <!--Toggle Switch-->
+        <ToggleSwitch x:Name="ToggleSwitch_1"
+                      Header="ToggleSwitch"
+                      Margin="10,9.5,6,0"
+                      Grid.Row="3"
+                      VerticalAlignment="Top"
+                      Toggled="ToggleSwitch_1_Toggled"/>
+
+        <TextBlock x:Name="TS_TextBlock"
+        	HorizontalAlignment="Left"
+        	VerticalAlignment="Top"
+        	Margin="10,9.5,0,0"
+        	TextWrapping="Wrap"                  
+        	Height="40"
+        	Width="140"
+        	FontSize="24"
+        	Grid.Column="1"
+        	Grid.Row="3"/>
+
+        <!--List Box-->
+        <ListBox x:Name="ListBox_1"
+                 HorizontalAlignment="Left"
+                 Height="120"
+                 Margin="10,10.167,0,0"
+                 Grid.Row="4"
+                 VerticalAlignment="Top"
+                 Width="220"
+                 ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <ListBoxItem Content="January"/>
+            <ListBoxItem Content="February"/>
+            <ListBoxItem Content="March"/>
+            <ListBoxItem Content="April"/>
+            <ListBoxItem Content="May"/>
+            <ListBoxItem Content="June"/>
+            <ListBoxItem Content="July"/>
+            <ListBoxItem Content="August"/>
+            <ListBoxItem Content="September"/>
+            <ListBoxItem Content="October"/>
+            <ListBoxItem Content="November"/>
+            <ListBoxItem Content="December"/>
+        </ListBox>
+
+        <Button Content="Ok"
+                x:Name="Ok"
+                Grid.Column="1"
+                HorizontalAlignment="Left"
+                Margin="10,0.167,0,0"
+                Grid.Row="4"
+                VerticalAlignment="Top"
+                Width="125"
+                Click="Ok_Click"/>
+
+        <TextBlock x:Name="LB_TextBlock"
+        	HorizontalAlignment="Left"
+        	VerticalAlignment="Top"
+        	Margin="10,53.167,0,0"
+        	TextWrapping="Wrap"                  
+        	Height="77"
+        	Width="140"
+        	FontSize="24"
+        	Grid.Column="1"
+        	Grid.Row="4"/>
+
+        <!--Combo Box-->
+        <ComboBox x:Name="ComboBox_1"
+                  HorizontalAlignment="Left"
+                  Margin="10,0.167,0,0"
+                  Grid.Row="5"
+                  VerticalAlignment="Top"
+                  Width="220">
+            <ComboBoxItem Content="January"/>
+            <ComboBoxItem Content="February"/>
+            <ComboBoxItem Content="March"/>
+            <ComboBoxItem Content="April"/>
+            <ComboBoxItem Content="May"/>
+            <ComboBoxItem Content="June"/>
+            <ComboBoxItem Content="July"/>
+            <ComboBoxItem Content="August"/>
+            <ComboBoxItem Content="September"/>
+            <ComboBoxItem Content="October"/>
+            <ComboBoxItem Content="November"/>
+            <ComboBoxItem Content="December"/>
+        </ComboBox>
+
+        <TextBlock x:Name="CB_TextBlock"
+        	HorizontalAlignment="Left"
+        	VerticalAlignment="Top"
+        	Margin="10,65.167,0,0"
+        	TextWrapping="Wrap"                  
+        	Height="40"
+        	Width="380"
+        	FontSize="24"
+        	Grid.Row="5" Grid.ColumnSpan="2"/>
+
+        <Button Content="Ok"
+        	x:Name="Ok_1"
+        	Grid.Column="1"
+        	HorizontalAlignment="Left"
+        	Margin="10,0.167,0,0"
+        	Grid.Row="5"
+        	VerticalAlignment="Top"
+        	Width="125"
+        	Click="Ok_1_Click"/>
+
+        <!--Popup Window-->
+        <TextBlock HorizontalAlignment="Left"
+                   Text="Popup Winodow"
+        	VerticalAlignment="Top"
+        	Margin="10,10,0,0"
+        	TextWrapping="Wrap"                  
+        	Height="40"
+        	Width="220"
+        	FontSize="24"
+        	Grid.Row="6"/>
+
+        <Button Content="Show Popup"
+        	x:Name="PopupButton"
+        	Grid.Column="1"
+        	HorizontalAlignment="Left"
+        	Margin="10,0,0,0"
+        	Grid.Row="6"
+        	VerticalAlignment="Top"
+        	Width="140"
+        	Click="PopupButton_Click"/>
+
+    </Grid>
+</Page>

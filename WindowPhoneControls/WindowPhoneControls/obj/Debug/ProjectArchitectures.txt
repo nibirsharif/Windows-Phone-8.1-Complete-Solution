@@ -1,0 +1,1 @@
+c:\users\nibir\documents\visual studio 2013\Projects\WindowPhoneControls\WindowPhoneControls\WindowPhoneControls.csproj;neutral

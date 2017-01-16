@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="XAMLStyling.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XAMLStyling"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Name" Value="PopupButton"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="Width" Value="140"/>
+            <Setter Property="Margin" Value="10,0,0,0"/>
+            <Setter Property="Content" Value="Show Popup"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Button Style="{StaticResource ButtonStyle}" Click="PopupButton_Click"/>
+    </Grid>
+</Page>

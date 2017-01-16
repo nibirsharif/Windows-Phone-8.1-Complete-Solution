@@ -1,0 +1,37 @@
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\Bin\Debug\HelloWorld.dll
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\Bin\Debug\HelloWorld.pdb
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\Bin\Debug\AppManifest.xaml
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\Bin\Debug\HelloWorld_Debug_AnyCPU.xap
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\obj\Debug\App.g.cs
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\obj\Debug\MainPage.g.cs
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.g.resources
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Resources.AppResources.resources
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+c:\users\nibir\documents\visual studio 2012\Projects\HelloWorld\HelloWorld\obj\Debug\XapCacheFile.xml
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\Assets\ApplicationIcon.png
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\HelloWorld.dll
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\HelloWorld.pdb
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\AppManifest.xaml
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\Properties\WMAppManifest.xml
+I:\New folder\HelloWorld\HelloWorld\Bin\Debug\HelloWorld_Debug_AnyCPU.xap
+I:\New folder\HelloWorld\HelloWorld\obj\Debug\App.g.cs
+I:\New folder\HelloWorld\HelloWorld\obj\Debug\MainPage.g.cs
+I:\New folder\HelloWorld\HelloWorld\obj\Debug\HelloWorld.g.resources
+I:\New folder\HelloWorld\HelloWorld\obj\Debug\HelloWorld.Resources.AppResources.resources
+I:\New folder\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
+I:\New folder\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
+I:\New folder\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+I:\New folder\HelloWorld\HelloWorld\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="WindowsPhoneControlsPart2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowsPhoneControlsPart2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid Margin="10">
+            <FlyoutBase.AttachedFlyout>
+                <DatePickerFlyout/>
+            </FlyoutBase.AttachedFlyout>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="16*"/>
+                <RowDefinition Height="23*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="First Name: " FontSize="24"/>
+            <TextBox x:Name="firstNameTextBox" Grid.Column="1" />
+
+            <TextBlock Text="Last Name: " Grid.Row="1" FontSize="24"/>
+            <TextBox x:Name="lastNameTextBox" Grid.Row="1" Grid.Column="1" />
+
+            <Button x:Name="GoButton" Grid.Column="1" Grid.Row="2" Content="Go" VerticalAlignment="Bottom" Width="110" Click="GoButton_Click" />
+            <TextBlock x:Name="welcomeTextBlock" HorizontalAlignment="Left" Margin="10,9.5,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="360" FontSize="24" Grid.ColumnSpan="2"/>
+            <TextBlock x:Name="nameTextBlock" HorizontalAlignment="Left" Margin="10,98.5,0,0" Grid.Row="3" TextWrapping="Wrap" Width="360" FontSize="24" Grid.ColumnSpan="2" Height="55" VerticalAlignment="Top"/>
+
+            <TextBlock HorizontalAlignment="Left" Margin="10,10.167,0,0" Grid.Row="4" TextWrapping="Wrap" Text="Pick a Date and Time" FontSize="20" VerticalAlignment="Top" Height="47" Width="170"/>
+            <DatePicker x:Name="datePicker" HorizontalAlignment="Left" Margin="10,74.167,0,0" Grid.Row="4" VerticalAlignment="Top" Width="170"/>
+            <TimePicker x:Name="timePicker" HorizontalAlignment="Left" Margin="10,146.167,0,0" Grid.Row="4" VerticalAlignment="Top" Width="170"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,10.167,0,0" Grid.Row="4" TextWrapping="Wrap" Text="You have selected" FontSize="20" VerticalAlignment="Top" Height="47" Width="170" Grid.Column="1"/>
+            <TextBlock x:Name="dateTextBlock" HorizontalAlignment="Left" Margin="10,84.167,0,0" Grid.Row="4" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top" Height="47" Width="170" Grid.Column="1"/>
+            <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Left" Margin="10,156.167,0,0" Grid.Row="4" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top" Height="47" Width="170" Grid.Column="1"/>
+            <Button x:Name="submitButton" Grid.Row="4" Content="Submit" VerticalAlignment="Bottom" Width="110" Click="submitButton_Click" Margin="10,0,0,1" />
+
+        </Grid>
+
+    </Grid>
+</Page>
